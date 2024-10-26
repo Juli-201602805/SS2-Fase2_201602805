@@ -1,0 +1,131 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>PFase2_201602805</Database>
+    <Server>LAPTOP-958MQ8BJ</Server>
+    <ConnectionString>Data Source=LAPTOP-958MQ8BJ;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>zwTwDwokDzzko1W7W1/vsgrxkGY=25/10/2024 22:19:5822/10/2024 23:58:05</TimeStamp>
+        <ID>
+          <String>BD</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>kjR+pygKFL/DAxOATmIYat5qeng=25/10/2024 22:55:2625/10/2024 18:14:15</TimeStamp>
+        <ID>
+          <String>Vista_Ventas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>9r/GmzH0/goGW7nXx/AOlEoX2iA=25/10/2024 22:46:3025/10/2024 22:13:50</TimeStamp>
+        <ID>
+          <String>Vistas_Compras</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Q0AAQ2VWjz7L8mwawQwcIBvgwR0=25/10/2024 22:54:3325/10/2024 22:44:01</TimeStamp>
+        <ID>
+          <String>PFase2_201602805</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NT3t7ZqVwQOePhV/XveU1Ds+xFM=25/10/2024 18:19:0025/10/2024 18:18:51</TimeStamp>
+        <ID>
+          <String>Vendedor_Ventas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ij8Ky6Mdd+yhb8V/ARvkBB5szJI=25/10/2024 18:19:2425/10/2024 18:19:24</TimeStamp>
+        <ID>
+          <String>Producto_Ventas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EmEtOF3B5zskaGfAMnq0+kfE12w=25/10/2024 18:19:5225/10/2024 18:19:51</TimeStamp>
+        <ID>
+          <String>Sucursal_Ventas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EYItivYARVR9XBBD/RlSmJWgXFM=25/10/2024 22:17:4625/10/2024 22:16:01</TimeStamp>
+        <ID>
+          <String>Producto_Compras</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>C58GedNtVoDRvxOa9T8rRRfKzDw=25/10/2024 22:16:2925/10/2024 22:16:29</TimeStamp>
+        <ID>
+          <String>Sucursal_Compras</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1js/6HDmlGTLjUZymYSpMv52fnM=25/10/2024 22:16:5325/10/2024 22:16:53</TimeStamp>
+        <ID>
+          <String>Proveedor_Compras</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CvSukbDRiQZESrGXtRi+PqLcQUU=25/10/2024 22:55:2625/10/2024 22:43:21</TimeStamp>
+        <ID>
+          <String>Hora_Compras</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>FMebgKGqjK7toipzUukMu+hNCKk=25/10/2024 22:55:2625/10/2024 22:51:19</TimeStamp>
+        <ID>
+          <String>Hora_Ventas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>95Hvepm0EJKiSui3E4iR0Vp2Ap4=25/10/2024 22:55:2625/10/2024 19:34:10TkyI18ib/mgu0iHENdJksnYmFqU=25/10/2024 19:34:1025/10/2024 19:34:10</TimeStamp>
+        <ID>
+          <String>Vista_Ventas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>1qFY1zd6FyM3HtVSiDF6pcvhHyU=25/10/2024 22:50:2625/10/2024 22:19:12dOBcM2xWW1UzZrw1oFCE4se24mc=25/10/2024 22:19:1225/10/2024 22:19:12</TimeStamp>
+        <ID>
+          <String>Vistas_Compras</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>bC7XcTSQRD1gCBkD+SrHhERYfOw=25/10/2024 22:54:3322/10/2024 23:48:51</TimeStamp>
+      <ID>
+        <String>PFase2_201602805</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-10-26T04:55:29.596667Z</LastDeployed>
+</DeploymentSnapshot>
